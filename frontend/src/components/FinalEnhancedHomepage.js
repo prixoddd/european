@@ -96,7 +96,7 @@ const FinalEnhancedHomepage = () => {
                     </Badge>
                     <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
                       <span className="text-brand-red">European Express</span><br />
-                      <span className="text-brand-blue">Temperature-sensitive cargo across Europe</span>
+                      <span className="text-brand-blue text-3xl lg:text-4xl">Temperature-sensitive cargo across Europe</span>
                     </h1>
                   </div>
                 </div>
