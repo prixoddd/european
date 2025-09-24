@@ -131,7 +131,7 @@ const EnhancedTraditionalHomepage = () => {
 
               <div className="grid grid-cols-3 gap-4 pt-6">
                 {[
-                  { value: "24+", label: "Years Experience", icon: Award },
+                  { value: "25+", label: "Years Experience", icon: Award },
                   { value: "10+", label: "Modern Trucks", icon: Truck },
                   { value: "100%", label: "Reliability", icon: Shield }
                 ].map((stat, index) => (
