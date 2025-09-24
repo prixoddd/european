@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/prixoddd/european/static/css/main.c07eb29b.css",
-    "main.js": "/prixoddd/european/static/js/main.a7b73eff.js",
-    "static/media/veronika.jpg": "/prixoddd/european/static/media/veronika.15797b393e50e6e940df.jpg",
-    "index.html": "/prixoddd/european/index.html",
-    "main.c07eb29b.css.map": "/prixoddd/european/static/css/main.c07eb29b.css.map",
-    "main.a7b73eff.js.map": "/prixoddd/european/static/js/main.a7b73eff.js.map"
+    "main.css": "/european/static/css/main.c07eb29b.css",
+    "main.js": "/european/static/js/main.aef04fda.js",
+    "static/media/veronika.jpg": "/european/static/media/veronika.15797b393e50e6e940df.jpg",
+    "index.html": "/european/index.html",
+    "main.c07eb29b.css.map": "/european/static/css/main.c07eb29b.css.map",
+    "main.aef04fda.js.map": "/european/static/js/main.aef04fda.js.map"
   },
   "entrypoints": [
     "static/css/main.c07eb29b.css",
-    "static/js/main.a7b73eff.js"
+    "static/js/main.aef04fda.js"
   ]
 }
