@@ -10,7 +10,7 @@ const EnhancedTraditionalHomepage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['welcome', 'services', 'routes', 'timeline', 'certifications', 'fleet', 'partners', 'team'];
+      const sections = ['welcome', 'services', 'routes', 'certifications', 'fleet', 'team'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
