@@ -548,9 +548,11 @@ const TraditionalHomepage = () => {
           <div className="grid lg:grid-cols-4 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-4 mb-8">
-                <div className="w-16 h-16 bg-brand-red rounded-sm flex items-center justify-center">
-                  <Truck className="h-8 w-8 text-white" />
-                </div>
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_blissful-swartz-1/artifacts/xq650qom_european%20logo_Rajdhani%20copy.png" 
+                  alt="European Express Logo" 
+                  className="h-16 w-auto"
+                />
                 <div className="border-l-2 border-gray-600 pl-4">
                   <h3 className="text-2xl font-bold tracking-wide">EUROPEAN EXPRESS</h3>
                   <p className="text-gray-400 text-sm tracking-widest">LIMITED LIABILITY COMPANY</p>
