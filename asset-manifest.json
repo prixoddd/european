@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/european/static/css/main.c07eb29b.css",
-    "main.js": "/european/static/js/main.aef04fda.js",
+    "main.js": "/european/static/js/main.44df15ae.js",
     "static/media/veronika.jpg": "/european/static/media/veronika.15797b393e50e6e940df.jpg",
     "index.html": "/european/index.html",
     "main.c07eb29b.css.map": "/european/static/css/main.c07eb29b.css.map",
-    "main.aef04fda.js.map": "/european/static/js/main.aef04fda.js.map"
+    "main.44df15ae.js.map": "/european/static/js/main.44df15ae.js.map"
   },
   "entrypoints": [
     "static/css/main.c07eb29b.css",
-    "static/js/main.aef04fda.js"
+    "static/js/main.44df15ae.js"
   ]
 }
