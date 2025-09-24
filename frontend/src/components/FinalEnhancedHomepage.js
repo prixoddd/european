@@ -473,7 +473,7 @@ const FinalEnhancedHomepage = () => {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-20 bg-gray-50">
+      <section id="team" className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center mb-6">
