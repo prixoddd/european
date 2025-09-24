@@ -103,7 +103,7 @@ const FinalEnhancedHomepage = () => {
               </div>
               
               <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
-                <div className="bg-white p-8 border-l-4 border-brand-blue shadow-sm">
+                <div className="bg-white/90 backdrop-blur-sm p-8 border-l-4 border-brand-blue shadow-lg rounded-lg">
                   <p className="text-xl font-medium text-gray-900 mb-4">
                     European Express LLC was established in October 2000 as a company providing 
                     international road freight transport services.
