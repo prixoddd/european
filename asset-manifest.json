@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/prixoddd/european/static/css/main.c07eb29b.css",
+    "main.js": "/prixoddd/european/static/js/main.a7b73eff.js",
+    "static/media/veronika.jpg": "/prixoddd/european/static/media/veronika.15797b393e50e6e940df.jpg",
+    "index.html": "/prixoddd/european/index.html",
+    "main.c07eb29b.css.map": "/prixoddd/european/static/css/main.c07eb29b.css.map",
+    "main.a7b73eff.js.map": "/prixoddd/european/static/js/main.a7b73eff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c07eb29b.css",
+    "static/js/main.a7b73eff.js"
+  ]
+}
