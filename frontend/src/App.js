@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CorporateHomepage from "./components/CorporateHomepage";
+import ModernHomepage from "./components/ModernHomepage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<CorporateHomepage />} />
+          <Route path="/" element={<ModernHomepage />} />
         </Routes>
       </BrowserRouter>
     </div>
