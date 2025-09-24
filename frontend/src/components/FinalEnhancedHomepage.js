@@ -257,7 +257,7 @@ const FinalEnhancedHomepage = () => {
       </section>
 
       {/* European Service Routes Map Section */}
-      <section id="routes" className="py-20 bg-gradient-to-br from-green-50 to-emerald-100">
+      <section id="routes" className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center mb-6">
