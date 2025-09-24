@@ -82,7 +82,7 @@ const FinalEnhancedHomepage = () => {
       </header>
 
       {/* Hero Section with Updated Text */}
-      <section id="welcome" className="pt-28 pb-20 bg-gray-50">
+      <section id="welcome" className="pt-28 pb-20 bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="max-w-7xl mx-auto px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-10">
