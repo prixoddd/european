@@ -112,7 +112,7 @@ const FinalEnhancedHomepage = () => {
                     We are a member of the Estonian Association of Carriers. For transportation 
                     solutions, we use both our own fleet and the vehicles of partner companies.
                   </p>
-                  <div className="mt-6 p-6 bg-gray-50 border border-gray-200">
+                  <div className="mt-6 p-6 bg-blue-50/80 border border-blue-200 rounded-lg">
                     <p className="font-semibold text-brand-blue text-lg mb-2 flex items-center">
                       <Target className="w-5 h-5 mr-2" />
                       Our Mission
