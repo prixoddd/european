@@ -62,9 +62,9 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* Traditional button styling */
+/* Traditional button styling with modern font */
 button {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
