@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { Badge } from "./ui/badge";
 import { Truck, MapPin, Phone, Mail, Users, Shield, Navigation, Clock, Building2, Award, Globe, CheckCircle, Package, Target, Anchor, Map, Route } from "lucide-react";
+import veronika from "../pictures/veronika.jpg";
 
 const FinalEnhancedHomepage = () => {
   const [activeSection, setActiveSection] = useState('welcome');
@@ -44,9 +45,9 @@ const FinalEnhancedHomepage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-3">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_blissful-swartz-1/artifacts/xq650qom_european%20logo_Rajdhani%20copy.png" 
-                  alt="European Express Logo" 
+                <img
+                  src="https://customer-assets.emergentagent.com/job_blissful-swartz-1/artifacts/xq650qom_european%20logo_Rajdhani%20copy.png"
+                  alt="European Express Logo"
                   className="h-12 w-auto"
                 />
                 <div className="border-l-2 border-gray-200 pl-4">
@@ -55,7 +56,7 @@ const FinalEnhancedHomepage = () => {
                 </div>
               </div>
             </div>
-            
+
             <nav className="hidden md:flex space-x-8">
               {[
                 { id: 'welcome', label: 'ABOUT' },
@@ -82,7 +83,7 @@ const FinalEnhancedHomepage = () => {
       </header>
 
       {/* Hero Section with Updated Text */}
-      <section id="welcome" className="pt-28 pb-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+      <section id="welcome" className="pt-28 pb-20 bg-gradient-to-br from-indigo-50 to-indigo-100">
         <div className="max-w-7xl mx-auto px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-10">
@@ -101,15 +102,15 @@ const FinalEnhancedHomepage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
                 <div className="bg-white/90 backdrop-blur-sm p-8 border-l-4 border-brand-blue shadow-lg rounded-lg">
                   <p className="text-xl font-medium text-gray-900 mb-4">
-                    European Express LLC was established in October 2000 as a company providing 
+                    European Express LLC was established in October 2000 as a company providing
                     international road freight transport services.
                   </p>
                   <p className="mb-4">
-                    We are a member of the Estonian Association of Carriers. For transportation 
+                    We are a member of the Estonian Association of Carriers. For transportation
                     solutions, we use both our own fleet and the vehicles of partner companies.
                   </p>
                   <div className="mt-6 p-6 bg-blue-50/80 border border-blue-200 rounded-lg">
@@ -118,7 +119,7 @@ const FinalEnhancedHomepage = () => {
                       Our Mission
                     </p>
                     <p className="text-gray-800 italic">
-                      "The goal of European Express is to provide high-quality and reliable services, 
+                      "The goal of European Express is to provide high-quality and reliable services,
                       combined with personal and professional customer care."
                     </p>
                   </div>
@@ -145,12 +146,12 @@ const FinalEnhancedHomepage = () => {
                 ))}
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="bg-white p-2 border-2 border-gray-200 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1636710899183-70d75ddf0036?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxldXJvcGVhbiUyMGxvZ2lzdGljcyUyMHJvdXRlcyUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NTg3NDE3Mjh8MA&ixlib=rb-4.1.0&q=85" 
-                  alt="European Express Professional Fleet" 
+                <img
+                  src={veronika}
+                  alt="European Express Professional Fleet"
                   className="w-full h-96 object-cover"
                 />
                 <div className="absolute top-6 right-6 bg-white p-4 shadow-lg border border-gray-200">
@@ -181,17 +182,17 @@ const FinalEnhancedHomepage = () => {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">Professional Transportation Services</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Specialized logistics solutions for temperature-sensitive cargo across European markets, 
+              Specialized logistics solutions for temperature-sensitive cargo across European markets,
               delivered with traditional reliability and modern efficiency.
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="bg-white border-2 border-gray-200 shadow-sm">
-                <img 
-                  src="https://images.unsplash.com/photo-1754388088242-9444d5d66710?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxldXJvcGVhbiUyMGxvZ2lzdGljcyUyMHJvdXRlcyUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NTg3NDE3Mjh8MA&ixlib=rb-4.1.0&q=85" 
-                  alt="Multi-modal logistics operations" 
+                <img
+                  src="https://images.unsplash.com/photo-1754388088242-9444d5d66710?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxldXJvcGVhbiUyMGxvZ2lzdGljcyUyMHJvdXRlcyUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NTg3NDE3Mjh8MA&ixlib=rb-4.1.0&q=85"
+                  alt="Multi-modal logistics operations"
                   className="w-full h-80 object-cover"
                 />
                 <div className="p-4 bg-gray-50 border-t border-gray-200">
@@ -199,7 +200,7 @@ const FinalEnhancedHomepage = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="space-y-8">
               <div className="bg-white border border-gray-200 p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-start space-x-6">
@@ -209,8 +210,8 @@ const FinalEnhancedHomepage = () => {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-gray-900 tracking-tight">Temperature-Controlled Transport</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      Our core business is the transportation of fruits, vegetables, and other temperature-sensitive 
-                      goods from all over Europe — particularly from Spain, Portugal, France, Italy, Belgium, 
+                      Our core business is the transportation of fruits, vegetables, and other temperature-sensitive
+                      goods from all over Europe — particularly from Spain, Portugal, France, Italy, Belgium,
                       and Germany — to Scandinavia and the Baltic states.
                     </p>
                     <div className="grid grid-cols-2 gap-4 mt-4">
@@ -226,7 +227,7 @@ const FinalEnhancedHomepage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white border border-gray-200 p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-start space-x-6">
                   <div className="w-16 h-16 bg-brand-red rounded-sm flex items-center justify-center flex-shrink-0">
@@ -235,7 +236,7 @@ const FinalEnhancedHomepage = () => {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-gray-900 tracking-tight">Ferry Crossings</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      We also provide cargo transportation via ferry crossings, ensuring flexible and reliable 
+                      We also provide cargo transportation via ferry crossings, ensuring flexible and reliable
                       logistics solutions across Europe with specialized maritime logistics expertise.
                     </p>
                     <div className="flex items-center space-x-4 mt-4">
@@ -272,11 +273,11 @@ const FinalEnhancedHomepage = () => {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">European Logistics Network</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive transportation network spans across major European markets, 
+              Our comprehensive transportation network spans across major European markets,
               connecting suppliers and customers with reliable, efficient logistics solutions.
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <Card className="bg-white border-2 border-gray-200 shadow-lg">
@@ -311,9 +312,9 @@ const FinalEnhancedHomepage = () => {
                       </div>
                     ))}
                   </div>
-                  
+
                   <Separator className="my-6" />
-                  
+
                   <div className="bg-brand-blue text-white p-6 rounded-sm">
                     <h4 className="font-bold text-lg mb-3 flex items-center">
                       <Route className="w-5 h-5 mr-2" />
@@ -337,19 +338,19 @@ const FinalEnhancedHomepage = () => {
                 </CardContent>
               </Card>
             </div>
-            
+
             <div className="space-y-6">
               <div className="bg-white p-2 border-2 border-gray-200 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1606964212858-c215029db704?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzU4NzQxNzM0fDA&ixlib=rb-4.1.0&q=85" 
-                  alt="European logistics network map" 
+                <img
+                  src="https://images.unsplash.com/photo-1606964212858-c215029db704?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzU4NzQxNzM0fDA&ixlib=rb-4.1.0&q=85"
+                  alt="European logistics network map"
                   className="w-full h-80 object-cover"
                 />
                 <div className="p-4 bg-gray-50 border-t border-gray-200">
                   <p className="text-sm text-gray-600 font-medium tracking-wide">EUROPEAN TRANSPORTATION NETWORK</p>
                 </div>
               </div>
-              
+
               <div className="bg-white border border-gray-200 p-6 shadow-sm">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                   <Navigation className="w-5 h-5 mr-2 text-brand-red" />
@@ -389,11 +390,11 @@ const FinalEnhancedHomepage = () => {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">Professional Fleet Management</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Thanks to our dedicated team and an extensive network of reliable partners, 
+              Thanks to our dedicated team and an extensive network of reliable partners,
               we provide professional service with modern equipment and traditional values.
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="bg-white border border-gray-200 p-8 shadow-sm">
@@ -401,13 +402,13 @@ const FinalEnhancedHomepage = () => {
                   <Truck className="w-6 h-6 mr-3 text-brand-blue" />
                   Fleet Specifications
                 </h3>
-                
+
                 <div className="space-y-6">
                   <p className="text-gray-700 leading-relaxed">
                     Our vehicle fleet is constantly being renewed. At present, we operate more than thirty-three
                     modern trucks that meet Euro-5 and Euro-6 standards.
                   </p>
-                  
+
                   <div className="grid grid-cols-2 gap-4">
                     <div className="text-center p-4 bg-gray-50 border border-gray-200">
                       <div className="w-8 h-8 bg-brand-blue rounded-sm flex items-center justify-center mx-auto mb-2">
@@ -424,9 +425,9 @@ const FinalEnhancedHomepage = () => {
                       <p className="text-sm text-gray-600">Standards</p>
                     </div>
                   </div>
-                  
+
                   <Separator className="my-6" />
-                  
+
                   <div className="space-y-4">
                     {[
                       "Latest KRONE refrigerated trailers equipped with Thermo King units",
@@ -442,7 +443,7 @@ const FinalEnhancedHomepage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-brand-blue text-white p-8 border-2 border-brand-blue">
                 <h4 className="text-xl font-bold mb-4 flex items-center">
                   <Shield className="w-5 h-5 mr-3" />
@@ -455,12 +456,12 @@ const FinalEnhancedHomepage = () => {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <div className="bg-white p-2 border-2 border-gray-200 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzU4NzQxNzM0fDA&ixlib=rb-4.1.0&q=85" 
-                  alt="European Express fleet operations" 
+                <img
+                  src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzU4NzQxNzM0fDA&ixlib=rb-4.1.0&q=85"
+                  alt="European Express fleet operations"
                   className="w-full h-96 object-cover"
                 />
                 <div className="p-4 bg-gray-50 border-t border-gray-200">
@@ -487,11 +488,11 @@ const FinalEnhancedHomepage = () => {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">Professional Team Members</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Meet our experienced professionals who ensure the highest standards of service 
+              Meet our experienced professionals who ensure the highest standards of service
               delivery and customer satisfaction in European logistics.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -560,7 +561,7 @@ const FinalEnhancedHomepage = () => {
                       <p className="text-sm text-brand-red font-semibold tracking-wider">{member.title}</p>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3 pb-2 border-b border-gray-100">
                       <Mail className="h-4 w-4 text-brand-blue" />
@@ -590,9 +591,9 @@ const FinalEnhancedHomepage = () => {
           <div className="grid lg:grid-cols-4 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-4 mb-8">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_blissful-swartz-1/artifacts/xq650qom_european%20logo_Rajdhani%20copy.png" 
-                  alt="European Express Logo" 
+                <img
+                  src="https://customer-assets.emergentagent.com/job_blissful-swartz-1/artifacts/xq650qom_european%20logo_Rajdhani%20copy.png"
+                  alt="European Express Logo"
                   className="h-16 w-auto"
                 />
                 <div className="border-l-2 border-gray-600 pl-4">
@@ -601,7 +602,7 @@ const FinalEnhancedHomepage = () => {
                 </div>
               </div>
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                Professional international road freight transport services since 2000. 
+                Professional international road freight transport services since 2000.
                 Committed to excellence in European logistics with traditional values and modern efficiency.
               </p>
               <div className="grid grid-cols-3 gap-4">
@@ -617,7 +618,7 @@ const FinalEnhancedHomepage = () => {
                 ))}
               </div>
             </div>
-            
+
             <div>
               <h4 className="font-bold text-lg mb-6 text-white tracking-wider">SERVICES</h4>
               <ul className="space-y-3">
@@ -635,7 +636,7 @@ const FinalEnhancedHomepage = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-bold text-lg mb-6 text-white tracking-wider">COVERAGE</h4>
               <ul className="space-y-3 text-gray-300 text-sm">
@@ -648,9 +649,9 @@ const FinalEnhancedHomepage = () => {
               </ul>
             </div>
           </div>
-          
+
           <Separator className="my-12 bg-gray-700" />
-          
+
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-center md:text-left">
               <p>&copy; 2024 European Express LLC. All rights reserved.</p>
