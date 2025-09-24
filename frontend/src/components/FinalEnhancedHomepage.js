@@ -95,8 +95,8 @@ const FinalEnhancedHomepage = () => {
                       ESTABLISHED 2000
                     </Badge>
                     <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
-                      <span className="text-brand-red">European Express</span><br />
-                      <span className="text-brand-blue text-3xl lg:text-4xl">Temperature-sensitive cargo across Europe</span>
+                      <span className="text-brand-red block mb-2">European Express</span>
+                      <span className="text-brand-blue text-2xl lg:text-3xl whitespace-nowrap block">Temperature-sensitive cargo across Europe</span>
                     </h1>
                   </div>
                 </div>
