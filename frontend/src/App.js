@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ModernHomepage from "./components/ModernHomepage";
+import TraditionalHomepage from "./components/TraditionalHomepage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ModernHomepage />} />
+          <Route path="/" element={<TraditionalHomepage />} />
         </Routes>
       </BrowserRouter>
     </div>
