@@ -61,10 +61,8 @@ const EnhancedTraditionalHomepage = () => {
                 { id: 'welcome', label: 'ABOUT' },
                 { id: 'services', label: 'SERVICES' },
                 { id: 'routes', label: 'ROUTES' },
-                { id: 'timeline', label: 'HISTORY' },
                 { id: 'certifications', label: 'AWARDS' },
                 { id: 'fleet', label: 'FLEET' },
-                { id: 'partners', label: 'PARTNERS' },
                 { id: 'team', label: 'TEAM' }
               ].map((item) => (
                 <button
