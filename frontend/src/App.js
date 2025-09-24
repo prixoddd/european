@@ -7,7 +7,7 @@ import CorporateHomepage from "@/components/CorporateHomepage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/european">
         <Routes>
           {/*<Route path="/" element={<FinalEnhancedHomepage />} />*/}
           <Route path="/" element={<CorporateHomepage />} />
