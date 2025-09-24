@@ -506,7 +506,7 @@ const EnhancedTraditionalHomepage = () => {
                   {
                     title: "Estonian Carriers Association",
                     subtitle: "Official Member",
-                    icon: Certificate,
+                    icon: FileCheck,
                     color: "border-brand-blue bg-blue-50",
                     year: "2003"
                   },
