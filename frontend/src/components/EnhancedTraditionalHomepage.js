@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { Badge } from "./ui/badge";
-import { Truck, MapPin, Phone, Mail, Users, Shield, Navigation, Clock, Building2, Award, Globe, CheckCircle, Package, Target, Anchor, Map, Route, Calendar, Trophy, Star, FileCheck } from "lucide-react";
+import { Truck, MapPin, Phone, Mail, Users, Shield, Navigation, Clock, Building2, Award, Globe, CheckCircle, Package, Target, Anchor, Map, Route, Trophy, Star, FileCheck } from "lucide-react";
 
 const EnhancedTraditionalHomepage = () => {
   const [activeSection, setActiveSection] = useState('welcome');
