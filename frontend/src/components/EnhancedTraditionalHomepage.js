@@ -410,7 +410,7 @@ const EnhancedTraditionalHomepage = () => {
                     year: "2003",
                     title: "Estonian Carriers Member",
                     description: "Became an official member of the Estonian Association of Carriers, ensuring industry compliance and standards.",
-                    icon: Certificate,
+                    icon: FileCheck,
                     color: "bg-brand-blue"
                   },
                   {
