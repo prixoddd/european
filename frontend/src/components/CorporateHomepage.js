@@ -24,7 +24,7 @@ const CorporateHomepage = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['welcome', 'services', 'fleet', 'partners', 'team'];
+            const sections = ['welcome', 'services', 'fleet', 'contacts'];
             const scrollPosition = window.scrollY + 100;
             setIsScrolled(window.scrollY > 0);
 
@@ -84,7 +84,7 @@ const CorporateHomepage = () => {
                                 {id: 'welcome', label: 'About'},
                                 {id: 'services', label: 'Services'},
                                 {id: 'fleet', label: 'Fleet'},
-                                {id: 'team', label: 'Team'}
+                                {id: 'contacts', label: 'Contacts'}
                             ].map((item) => (
                                 <Button
                                     key={item.id}
@@ -167,8 +167,9 @@ const CorporateHomepage = () => {
                                 />
                                 <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-lg">
                                     <div className="text-center">
-                                        <p className="text-2xl font-bold text-brand-blue">33+</p>
-                                        <p className="text-sm text-gray-600">Modern Trucks</p>
+                                        <p className="text-2xl font-bold text-brand-blue">35+</p>
+                                        <p className="text-sm text-gray-600">Trucks in our fleet</p>
+
                                     </div>
                                 </div>
                             </div>
@@ -217,11 +218,10 @@ const CorporateHomepage = () => {
                                             <h3 className="text-2xl font-bold text-gray-900">Temperature-Controlled
                                                 Transport</h3>
                                             <p className="text-gray-600 leading-relaxed">
-                                                Specialized transportation of fruits, vegetables, and
-                                                temperature-sensitive goods
-                                                from major European markets including Spain, Portugal, France, Italy,
-                                                Belgium,
-                                                and Germany to Scandinavia and the Baltic states.
+                                                Specialized transportation of fruits, vegetables, and other
+                                                temperature-sensitive goods from key European markets including Spain,
+                                                Portugal, France, Italy, Hungary, Greece, the Netherlands, Belgium,
+                                                Germany, Poland, and Finland to Scandinavia and the Baltic States.
                                             </p>
                                             <div className="flex flex-wrap gap-2 pt-2">
                                                 <Badge variant="secondary" className="bg-green-100 text-green-800">Fresh
@@ -277,16 +277,17 @@ const CorporateHomepage = () => {
                             <Shield className="w-4 h-4 mr-2"/>
                             Fleet & Technology
                         </Badge>
-                        <h2 className="text-4xl font-bold text-white mb-6">State-of-the-Art Fleet Management</h2>
+                        <h2 className="text-4xl font-bold text-white mb-6">Modern Fleet. Safe Delivery.</h2>
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                            Our commitment to excellence is reflected in our modern fleet and cutting-edge
-                            technology systems that ensure safe, efficient cargo delivery.
+                            Our modern fleet and smart technology systems guarantee safe, reliable, and efficient cargo
+                            delivery across Europe.
                         </p>
                     </div>
 
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         <div className="space-y-8">
-                            <Card className="bg-gray-100 rounded-xl shadow-[inset_6px_6px_12px_rgba(0,0,0,0.2),inset_-6px_-6px_12px_rgba(255,255,255,0.7)]">
+                            <Card
+                                className="bg-gray-100 rounded-xl shadow-[inset_6px_6px_12px_rgba(0,0,0,0.2),inset_-6px_-6px_12px_rgba(255,255,255,0.7)]">
                                 <CardHeader className="pb-4">
                                     <CardTitle className="text-2xl font-bold text-gray-900 flex items-center">
                                         <Truck className="w-6 h-6 mr-3 text-brand-blue"/>
@@ -296,7 +297,7 @@ const CorporateHomepage = () => {
                                 <CardContent className="space-y-6">
                                     <div className="grid grid-cols-2 gap-6">
                                         <div className="text-center p-4 bg-blue-50 rounded-xl">
-                                            <p className="text-2xl font-bold text-brand-blue">33+</p>
+                                            <p className="text-2xl font-bold text-brand-blue">35+</p>
                                             <p className="text-sm font-medium text-gray-700">Modern Trucks</p>
                                         </div>
                                         <div className="text-center p-4 bg-green-50 rounded-xl">
@@ -310,11 +311,11 @@ const CorporateHomepage = () => {
                                     <div className="space-y-4">
                                         <div className="flex items-center space-x-3">
                                             <CheckCircle className="h-5 w-5 text-brand-blue"/>
-                                            <span className="text-gray-700">KRONE refrigerated trailers with Thermo King units</span>
+                                            <span className="text-gray-700">KRONE and SCHMITZ refrigerated trailers equipped with Thermo King units</span>
                                         </div>
                                         <div className="flex items-center space-x-3">
                                             <CheckCircle className="h-5 w-5 text-brand-blue"/>
-                                            <span className="text-gray-700">33 EUR pallets capacity per trailer</span>
+                                            <span className="text-gray-700">Capacity: 33 EUR-pallets per trailer</span>
                                         </div>
                                         <div className="flex items-center space-x-3">
                                             <CheckCircle className="h-5 w-5 text-brand-blue"/>
@@ -344,7 +345,7 @@ const CorporateHomepage = () => {
                                             ✓ Additional CMR forwarding insurance coverage
                                         </p>
                                         <p className="text-blue-100">
-                                            ✓ Real-time GPS tracking: Seeme, Fleetboard, Dynafleet Online
+                                            ✓ Real-time GPS tracking via Mapon
                                         </p>
                                     </div>
                                 </CardContent>
@@ -442,18 +443,17 @@ const CorporateHomepage = () => {
             {/*</section>*/}
 
             {/* Corporate Team Section */}
-            <section id="team" className="py-20 bg-gray-50">
+            <section id="contacts" className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-8">
                     <div className="text-center mb-16">
                         <Badge variant="outline"
                                className="text-brand-red border-brand-red/20 bg-brand-red/5 px-4 py-2 mb-6">
                             <Users className="w-4 h-4 mr-2"/>
-                            Leadership Team
+                            Contacts
                         </Badge>
-                        <h2 className="text-4xl font-bold text-gray-900 mb-6">Professional Excellence</h2>
+                        <h2 className="text-4xl font-bold text-gray-900 mb-6">The People Behind European Express</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Meet our experienced leadership team driving European Express forward with
-                            dedication, expertise, and commitment to service excellence.
+                            Our team is here to support you with every step of your logistics needs.
                         </p>
                     </div>
 
@@ -463,96 +463,100 @@ const CorporateHomepage = () => {
                             title: "FINANCIAL DIRECTOR",
                             email: "olesja@europeanexpress.ee",
                             phone: "+372 56 250 284",
-                            skype: "euroex1",
-                            color: "blue"
+
                         },
                             {
-                                name: "Artem Gnutenko",
+                                name: "Artjom Gnutenko",
                                 title: "MEMBER OF BOARD",
                                 email: "artjom@europeanexpress.ee",
                                 phone: "+372 56 455 414",
-                                color: "red"
+
                             },
                             {
                                 name: "Jevgenia Muhametova",
-                                title: "CARGO MANAGER",
+                                title: "IMPORT DEPARTMENT",
                                 email: "zenja@europeanexpress.ee",
                                 phone: "+372 56 256 522",
-                                skype: "shaker3112",
-                                color: "purple"
+
                             },
                             {
                                 name: "Inna Possõpkina",
-                                title: "CARGO MANAGER",
+                                title: "IMPORT DEPARTMENT",
                                 email: "inna@europeanexpress.ee",
                                 phone: "+372 56 961 510",
-                                color: "orange"
+                            },
+                            {
+                                name: "Jana Giljova",
+                                title: "SPEDITION DEPARTMENT",
+                                email: "jana@europeanexpress.ee",
+                                phone: "+372 56 961 510",
                             },
                             {
                                 name: "Nikita Derjugin",
                                 title: "EXPORT DEPARTMENT",
                                 email: "nikita@europeanexpress.ee",
                                 phone: "+372 56 45 90 94",
-                                skype: "-------",
-                                color: "green"
                             },
                             {
                                 name: "Sergei Prokofjev",
-                                title: "SHIPMENT MANAGER",
+                                title: "FERRY OPERATIONS",
                                 email: "ferry@europeanexpress.ee",
                                 phone: "+372 56 56 22 16",
-                                color: "indigo"
                             },
                             {
-                                name: "Julja Burkova",
-                                title: "SHIPMENT MANAGER",
+                                name: "Julja Pihoja",
+                                title: "ACCOUNTING DEPARTMENT",
                                 email: "julja@europeanexpress.ee",
                                 phone: "+372 56 56 22 16",
-                                skype: "euroex5",
-                                color: "cyan"
                             },
+
                             {
-                                name: "Jana Giljova",
-                                title: "SHIPMENT MANAGER",
-                                email: "jana@europeanexpress.ee",
-                                phone: "+372 56 961 510",
-                                skype: "jana.zub",
-                                color: "pink"
-                            }
+                                name: "Mariia Marchenko",
+                                title: "OPERATIONS SPECIALIST",
+                                email: "mariia@europeanexpress.ee",
+                                phone: "+372 56 60 17 71",
+                            },
+
                         ].map((member, index) => (
                             <Card key={index}
                                   className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white group">
                                 <CardContent className="p-8">
                                     <div className="flex items-center space-x-4 mb-6">
-                                        <div className={`w-16 h-16 bg-gradient-to-br ${
-                                            member.color === 'blue' ? 'from-blue-500 to-blue-600' :
-                                                member.color === 'red' ? 'from-red-500 to-red-600' :
-                                                    member.color === 'green' ? 'from-green-500 to-green-600' :
-                                                        member.color === 'purple' ? 'from-purple-500 to-purple-600' :
-                                                            member.color === 'orange' ? 'from-orange-500 to-orange-600' :
-                                                                member.color === 'cyan' ? 'from-cyan-500 to-cyan-600' :
-                                                                    member.color === 'pink' ? 'from-pink-500 to-pink-600' :
-                                                                        'from-indigo-500 to-indigo-600'
-                                        } rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200`}>
-                                            <Users className="h-8 w-8 text-white"/>
+                                        <div
+                                            className={`w-14 h-14 bg-gray-200  rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200`}>
+                                            <Users className="h-8 w-8 text-gray-600"/>
                                         </div>
                                         <div>
                                             <h3 className="font-bold text-xl text-gray-900">{member.name}</h3>
-                                            <Badge variant="secondary"
-                                                   className="bg-gray-100 text-gray-700 text-xs font-medium">
+                                            <Badge variant="default"
+                                                   className="bg-white text-brand-blue border border-brand-blue text-xs font-medium">
                                                 {member.title}
                                             </Badge>
+
                                         </div>
+
                                     </div>
+
 
                                     <div className="space-y-3">
                                         <div className="flex items-center space-x-3">
                                             <Mail className="h-4 w-4 text-brand-blue flex-shrink-0"/>
-                                            <p className="text-sm text-gray-700 truncate">{member.email}</p>
+                                            <a
+                                                href={`mailto:${member.email}`}
+                                                className="text-sm text-gray-700 truncate hover:text-brand-blue transition-colors"
+                                            >
+                                                {member.email}
+                                            </a>
                                         </div>
+
                                         <div className="flex items-center space-x-3">
                                             <Phone className="h-4 w-4 text-brand-red flex-shrink-0"/>
-                                            <p className="text-sm font-medium text-gray-700">{member.phone}</p>
+                                            <a
+                                                href={`tel:${member.phone}`}
+                                                className="text-sm font-medium text-gray-700 hover:text-brand-red transition-colors"
+                                            >
+                                                {member.phone}
+                                            </a>
                                         </div>
                                         {member.skype && (
                                             <div className="flex items-center space-x-3">
@@ -627,10 +631,10 @@ const CorporateHomepage = () => {
                         <div>
                             <h4 className="font-bold text-lg mb-6">Coverage Areas</h4>
                             <ul className="space-y-3 text-gray-300">
-                                <li>🇪🇸 Spain • 🇵🇹 Portugal</li>
-                                <li>🇫🇷 France • 🇮🇹 Italy</li>
-                                <li>🇧🇪 Belgium • 🇩🇪 Germany</li>
-                                <li>🇸🇪 🇳🇴 🇩🇰 Scandinavia</li>
+                                <li>🇪🇸 Spain • 🇵🇹 Portugal 🇫🇷 France</li>
+                                <li>🇮🇹 Italy • 🇭🇺 Hungary • 🇬🇷 Greece</li>
+                                <li>🇳🇱 Netherlands • 🇧🇪 Belgium</li>
+                                <li>🇩🇪 Germany • 🇵🇱 Poland • 🇫🇮 Finland</li>
                                 <li>🇪🇪 🇱🇻 🇱🇹 Baltic States</li>
                             </ul>
                         </div>
@@ -643,10 +647,6 @@ const CorporateHomepage = () => {
                             <p>&copy; 2025 European Express LLC. All rights reserved.</p>
                             <p className="mt-1">Member of the Estonian Association of Carriers</p>
                         </div>
-                        {/*<div className="flex items-center space-x-2 text-gray-400">*/}
-                        {/*  <Building2 className="w-4 h-4" />*/}
-                        {/*  <span className="text-sm">Professional Logistics Excellence</span>*/}
-                        {/*</div>*/}
                     </div>
                 </div>
             </footer>
