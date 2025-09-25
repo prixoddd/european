@@ -68,7 +68,6 @@ const CorporateHomepage = () => {
                 { id: 'welcome', label: 'About' },
                 { id: 'services', label: 'Services' },
                 { id: 'fleet', label: 'Fleet' },
-                { id: 'partners', label: 'Partners' },
                 { id: 'team', label: 'Team' }
               ].map((item) => (
                 <Button
