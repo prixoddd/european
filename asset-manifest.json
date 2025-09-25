@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/european/static/css/main.3996b730.css",
-    "main.js": "/european/static/js/main.3228e5ac.js",
+    "main.css": "/european/static/css/main.044fe8a7.css",
+    "main.js": "/european/static/js/main.7e420036.js",
     "static/media/veronika.jpg": "/european/static/media/veronika.15797b393e50e6e940df.jpg",
     "index.html": "/european/index.html",
-    "main.3996b730.css.map": "/european/static/css/main.3996b730.css.map",
-    "main.3228e5ac.js.map": "/european/static/js/main.3228e5ac.js.map"
+    "main.044fe8a7.css.map": "/european/static/css/main.044fe8a7.css.map",
+    "main.7e420036.js.map": "/european/static/js/main.7e420036.js.map"
   },
   "entrypoints": [
-    "static/css/main.3996b730.css",
-    "static/js/main.3228e5ac.js"
+    "static/css/main.044fe8a7.css",
+    "static/js/main.7e420036.js"
   ]
 }
