@@ -16,7 +16,7 @@ const CorporateHomepage = () => {
     useEffect(() => {
         const handleScroll = () => {
             const sections = ['welcome', 'services', 'fleet', 'contacts'];
-            const scrollPosition = window.scrollY + 100;
+            const scrollPosition = window.scrollY + 200;
             setIsScrolled(window.scrollY > 0);
 
             for (const section of sections) {
@@ -43,6 +43,15 @@ const CorporateHomepage = () => {
         }
     };
 
+    const goTo = (sectionId) => {
+        setActiveSection(sectionId);
+        setIsMobileMenuOpen(false);
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
     return (<div className="min-h-screen bg-white">
         <header className="fixed top-0 w-full z-50 transition-all duration-300 bg-white border-b border-gray-100 shadow-sm">
             <div className="max-w-7xl mx-auto px-8 py-6">
@@ -64,7 +73,7 @@ const CorporateHomepage = () => {
                             <Button
                                 key={item.id}
                                 variant="ghost"
-                                onClick={() => scrollToSection(item.id)}
+                                onClick={() => goTo(item.id)}
                                 className={`px-6 py-2 text-sm font-medium transition-all duration-200 ${
                                     activeSection === item.id ? 'bg-brand-blue text-white shadow-md' : 'text-gray-600 hover:text-brand-blue hover:bg-gray-50'
                                 }`}
@@ -101,7 +110,7 @@ const CorporateHomepage = () => {
                                         <Button
                                             key={item.id}
                                             variant="ghost"
-                                            onClick={() => scrollToSection(item.id)}
+                                            onClick={() => goTo(item.id)}
                                             className={`w-full justify-start px-4 py-3 text-left transition-all duration-200 ${
                                                 activeSection === item.id
                                                     ? 'bg-brand-blue text-white shadow-md'
@@ -121,7 +130,7 @@ const CorporateHomepage = () => {
         </header>
 
         {/* Corporate Hero Section */}
-        <section id="welcome" className="pt-32 pb-20 bg-gradient-to-br from-gray-200 via-white to-blue-950">
+        <section id="welcome" className="pt-32 pb-20 bg-gradient-to-br from-gray-200 via-white to-blue-950 scroll-mt-28">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     <div className="space-y-8">
@@ -206,7 +215,7 @@ const CorporateHomepage = () => {
         </section>
 
         {/* Corporate Services Section */}
-        <section id="services" className="py-20 bg-white">
+        <section id="services" className="py-20 bg-white scroll-mt-28">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <Badge variant="outline"
@@ -296,7 +305,7 @@ const CorporateHomepage = () => {
 
         {/* Corporate Fleet Section */}
         {/*<section id="fleet" className="py-20 bg-gradient-to-br from-blue-950 via-white to-gray-50">*/}
-        <section id="fleet" className="py-20 bg-gray-900">
+        <section id="fleet" className="py-20 bg-gray-900 scroll-mt-28">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <Badge variant="outline"
@@ -476,7 +485,7 @@ const CorporateHomepage = () => {
         {/*</section>*/}
 
         {/* Corporate Team Section */}
-        <section id="contacts" className="py-20 bg-gray-50">
+        <section id="contacts" className="py-20 bg-gray-50 scroll-mt-28">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <Badge variant="outline"
