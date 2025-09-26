@@ -10,7 +10,6 @@ import CountUp from "@/components/ui/countUp";
 
 const CorporateHomepage = () => {
     const [activeSection, setActiveSection] = useState('welcome');
-    const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
@@ -380,7 +379,7 @@ const CorporateHomepage = () => {
                                 </h4>
                                 <div className="space-y-3">
                                     <p className="text-blue-100">
-                                        ✓ Comprehensive CMR carrier liability insurance
+                                        ✓ CMR carrier liability insurance
                                     </p>
                                     <p className="text-blue-100">
                                         ✓ Additional CMR forwarding insurance coverage
@@ -675,7 +674,7 @@ const CorporateHomepage = () => {
 
                 <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                     <div className="text-gray-400 text-center md:text-left">
-                        <p>&copy; 2025 European Express LLC. All rights reserved.</p>
+                        <p>&copy; 2025 European Express OÜ. All rights reserved.</p>
                         <p className="mt-1">Member of the Estonian Association of Carriers</p>
                     </div>
                 </div>
