@@ -10,6 +10,7 @@ import CountUp from "@/components/ui/countUp";
 
 const CorporateHomepage = () => {
     const [activeSection, setActiveSection] = useState('welcome');
+    const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
