@@ -541,7 +541,6 @@ const CorporateHomepage = () => {
                         name: "Julja Pihoja",
                         title: "ACCOUNTING DEPARTMENT",
                         email: "julja@europeanexpress.ee",
-                        phone: "+372 56 56 22 16",
                     },
 
                         {
